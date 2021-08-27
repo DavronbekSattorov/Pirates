@@ -156,7 +156,7 @@ button:hover {
     width: 124px;
     height: 124px;
     margin: auto;
-    background-color: #FFC2AF;
+    background-color: #fbdb67;
     color: white;
     font-size: 65px;
     border-radius: 50%;
@@ -184,7 +184,7 @@ button:hover {
 }
 
 .iconBox:hover {
-    background-color: #FD8B7B;
+    background-color: #ffcc13;
     transform: scale(.9);
 
 }
@@ -223,6 +223,7 @@ button:hover {
      background-color:white;
      width: 30%;
      margin: 10px;
+   
 }
 
 .portfolio-content{
@@ -232,6 +233,7 @@ button:hover {
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
+     
 }
 
 .note{
@@ -266,18 +268,33 @@ button:hover {
      background-color:#fed136e6;
 }
 
-.portfolio-box:hover img{ 
+/* .portfolio-box:hover img{ 
      opacity: 0.3;
-}
+} */
 
-.portfolio-box:hover i{
+/* .portfolio-box:hover i{
     visibility: visible;
     color:white;
-}
+} */
 
 .icon-portfolio{
     visibility: hidden;
 }
+
+.portfolio-content:hover .portfolio-box{
+    filter:blur(3px);
+    opacity:.5;
+    transform: scale(.98);
+    box-shadow:none;
+}
+
+.portfolio-content:hover .portfolio-box:hover{
+    transform:scale(1);
+    filter:blur(0px);
+    opacity:1;
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+}
+
 
 /* Section Team (AIkerim) */
 
@@ -445,6 +462,7 @@ div.container-team {
     background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/1-agency/assets/img/map-image.png);
     background-size: cover;
     background-repeat: no-repeat; 
+    background-attachment: fixed;
     width: 100%;
     height: 90vh;
     display: flex;
