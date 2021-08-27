@@ -1,0 +1,847 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+/* header nav (Recep)*/
+header {
+    background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/1-agency/assets/img/header-bg.jpg);
+    height: 89vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(48, 51, 53, 0.322);
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
+
+.nav-bar {
+    width: 65%;
+    margin: auto;
+}
+
+.nav-logo a {
+    text-decoration: none;
+    color: #f1c942;
+    font-weight: 700;
+    font-size: x-large;
+    letter-spacing: 0.0700em;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    padding-left: 12px;
+    font-weight: 100;
+    letter-spacing: 0.0700em;
+}
+
+.nav-menu a:hover {
+    color: #f1c942;
+}
+
+div.nav-menu {
+    width: 48%;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 30px;
+    letter-spacing: 1px;
+}
+
+ul {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+
+/* header (Kasiet) */
+.head-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.title1 p {
+    margin-top: 35vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.title2 p {
+    font-size: 4.5rem;
+    margin-top: 0px;
+    font-weight: 730;
+    letter-spacing: 5px;
+}
+
+button {
+    padding: 25px 41px;
+    font-size: 17px;
+    font-weight: bolder;
+    letter-spacing: 0.01rem;
+    color: white;
+    background-color: #f1c942;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-top: 50px;
+}
+
+button:hover {
+    background-color: #f0b63a;
+}
+
+/* Section services (Davronbek)*/
+.services {
+    width: 100%;
+    height: 80%;
+    box-sizing: border-box;
+    padding-top: 70px;
+
+}
+
+.serviceHeader {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.serviceText {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: 60px;
+    text-align: center;
+    color: #6c757d;
+}
+
+.container {
+    width: 65%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+
+.iconBox {
+    width: 124px;
+    height: 124px;
+    margin: auto;
+    background-color: #fed136;
+    color: white;
+    font-size: 65px;
+    border-radius: 50%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceBox h1 {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 26px;
+    color: #212529;
+}
+
+.serviceBox p {
+    color: #6c757d !important;
+    line-height: 1.50;
+    font-size: 18px;
+    padding: 15px;
+}
+
+
+ /* Portfolio (Akcholpon) */
+ #portfolio{
+    font-size: 40px;
+    font-style: normal;   
+    margin-bottom:0;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.portfolio-section{
+     
+     font-size: 20px;
+     background-color:  #f8f9fa;
+     text-align: center;
+     padding-top: 100px;
+     padding-bottom: 80px;
+}
+
+.lorem{
+     padding-top:20px;
+}
+   
+.bold {
+     font-weight: bold;
+     font-size: 25px;
+     margin-bottom:0;
+     padding-top: 30px;
+}
+
+.portfolio-box{
+     background-color:white;
+     width: 30%;
+     margin: 10px;
+}
+
+.portfolio-content{
+    width: 68%;
+    margin: auto;
+     padding-top:30px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.note{
+     color: gray;
+     font-style: italic;
+     padding-bottom:40px;
+     margin-top:10px;
+     font-family: "Times New Roman", Times, serif;
+}
+
+.port-img{
+    width:100%;
+    margin:0;
+}
+
+.overlay{
+     margin:0;
+     padding:0;
+     background-color:white;
+     position:relative;
+}
+
+.icon-portfolio{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%); 
+}
+
+.portfolio-box:hover .overlay{
+     opacity: 0.75;
+     background-color:#fed136e6;
+}
+
+.portfolio-box:hover img{ 
+     opacity: 0.3;
+}
+
+.portfolio-box:hover i{
+    visibility: visible;
+    color:white;
+}
+
+.icon-portfolio{
+    visibility: hidden;
+}
+
+/* Section Team (AIkerim) */
+
+.team-section {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    font-size: 16px;
+    color: rgb(130, 124, 124);
+    line-height: 1.6;
+    padding: 5% 0;
+
+}
+
+.container-team {
+    width: 65%;
+    margin: auto;
+    padding: 2%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: black;
+    font-family: "Montserrat", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 0;
+    color: rgb(34, 32, 32);
+}
+
+h3 {
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+h1,
+.ending-part-team,
+.role {
+    margin-bottom: 16px;
+}
+
+.container-card {
+    width: 100%;
+    padding: 0 12px;
+}
+
+.role {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.row {
+    margin: auto;
+    text-align: center;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px 10px 25px 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.photo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team {
+    border-radius: 50%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.teamm img {
+    width: 225px;
+    height: 225px;
+    border: 8px solid lightgrey;
+}
+
+.social button {
+    cursor: pointer;
+    background-color: rgb(47, 48, 54);
+    border: 2px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+    margin: 8px;
+    padding: 0;
+    align-items: center;
+    color: white;
+}
+
+.cntnr {
+    margin: 0 8px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.secondRow {
+    width: 100%;
+}
+p.ending-part-team {
+    width: 65%;
+    line-height: 1.75;
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+    text-align: center;
+    font-weight: 40;
+    margin: auto;
+}
+
+div.container-team {
+    padding: 0;
+}
+
+/* Section Logo (Davronbek)*/
+
+.sectionLogo {
+    width: 65%;
+    height: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 60px;
+
+}
+
+.logo-box img {
+    width: 150px;
+}
+
+.logo-box {
+    width: 20%;
+    text-align: center;
+}
+
+/* Section Form (Alty) */
+
+.alty {
+    background-color: #212529;
+    background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/1-agency/assets/img/map-image.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+.containerAlty {
+   width: 65%;
+   text-align: center;  
+}
+
+.contact {
+     color: white;
+     text-transform: uppercase;
+     font-size: 40px;
+     margin-bottom: 20px;
+}
+
+.contact-p {
+    color: #79848f;
+    font-size: 20px;
+    font-style: italic;
+   }
+
+.section {
+     display: flex;
+   
+}
+
+.input {
+    width: 500px;
+     height: 70px;
+     border-radius: 5px;
+     margin: 10px 20px; 
+   
+}
+
+.section-left {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     margin-top: 30px;
+}
+
+
+#msg {
+    display: flex;
+     width: 500px;
+     height: 260px;
+     margin-top: 40px;
+     border-radius: 5px;
+}
+
+
+::placeholder {
+    color: rgb(206, 204, 204);
+    font-variant: initial;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 20px;
+     
+}
+
+
+.btn {
+      padding: 25px 40px;
+      font-size: 20px;
+      font-weight: bolder;
+      letter-spacing: 0.01rem;
+      color: white;
+      background-color: #f1c942;
+      border-radius: 5px;
+      border-color: transparent;
+      text-transform: uppercase;
+     display: flex;
+     justify-content: center;
+     margin: auto;
+     margin-top: 40px;
+}
+
+/* Footer (Kasiet)  */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 20px;
+}
+
+.iconKasiet {
+    color: rgb(80, 80, 80);
+    border-radius: 50%;
+}
+
+.third a {
+    text-decoration: none;
+    color: #f1c942;
+}
+
+.third a:hover {
+    text-decoration: underline;
+}
+
+   
+/* -------------------- Responsive Part --------------------- */
+
+
+    @media only screen and (max-width: 650px) {
+
+        /* header nav */
+        header {
+            height: fit-content;
+        }
+        
+        nav {
+            background-color: rgb(33, 37, 41);
+        }
+        
+        .nav-logo a {
+            text-decoration: none;
+            color: #f1c942;
+            font-weight: 700;
+            font-size: 22px;
+            margin-left: 0;
+            letter-spacing: 0.0700em;
+            font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+        
+        
+        div.nav-menu {
+            display: none;
+        }
+
+        /* header */
+        
+        .title1 p {
+            margin-top: 20vh;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+        
+        .title2 p {
+            font-size: 3rem;
+            letter-spacing: 1px;
+            line-height: 45px;
+        }
+        
+        button {
+            margin-top: 40px;
+            margin-bottom: 90px;
+        }
+        
+        /* Services */
+
+        .services {
+            width: 100%;
+            height: fit-content;
+            box-sizing: border-box;
+            padding-top: 70px;
+        }
+        
+        .serviceHeader {
+            font-size: 40px;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        
+        .serviceText {
+            font-size: 16px;
+        }
+        
+        .container {
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-bottom: 80px;
+        }
+
+        .container h2 {
+            margin: 15px 0;
+        }
+
+        .serviceBox p {
+            font-size: 16px; 
+        }
+
+        /* Portfolio */
+
+        #portfolio {
+            font-size: 40px;
+            font-style: normal;   
+            margin-bottom:0;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .portfolio-section {
+             
+             font-size: 20px;
+             background-color:  #f8f9fa;
+             text-align: center;
+             padding-top: 100px;
+             padding-bottom: 80px;
+            
+        }
+
+        .lorem {
+             padding-top:20px;
+        }
+           
+           .bold {
+             font-weight: bold;
+             font-size: 25px;
+             margin-bottom:0;
+             padding-top: 30px;
+           }
+           
+           .portfolio-content{
+            width: 95%;
+            margin: auto;
+            
+            padding-top:30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           }
+
+           .portfolio-box{
+            background-color:white;
+            width: 100%;
+            padding-left: 0;
+            margin-left: 0;
+            /* margin: 10px; */
+            
+            
+          }
+
+          .port-img{
+            width:100%;
+              margin:auto;
+            }
+           
+           /* Team */
+            .card-1,
+            .card-2,
+            .card-3 {
+                display: block;
+                margin: auto;
+                width: 100%;
+                text-align: center;
+            }
+            .secondRow {
+                width: 100%;
+                text-align: center;
+                margin-top: 40px;
+                margin-bottom: 80px;
+            }
+            p.ending-part-team {
+                width: 90%;
+                line-height: 1.5;
+                font-size: 20px;
+                font-family: 'Roboto Slab';
+                text-align: center;
+                font-weight: 40;
+                margin: auto;
+            }
+           /* Logos */
+
+            .sectionLogo {
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                box-sizing: border-box;
+                padding-top: 60px;
+
+            }
+
+            .logo-box img {
+                width: 150px;
+            }
+
+            .logo-box {
+                width: 90%;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+
+
+           /* Form */
+            .alty {
+                width: 100%;
+                max-height: fit-content;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center; 
+                padding-top: 96px;
+                padding-bottom: 96px;
+            }
+
+            .containerAlty {
+                width: 100%;
+                text-align: center; 
+            }
+
+            .contact {
+                color: white;
+                text-transform: uppercase;
+                font-size: 40px;
+                margin-bottom: 20px;
+            }
+
+            .contact-p {
+                color: #79848f;
+                font-size: 16px;
+                font-style: italic;
+            }
+
+            .section {
+                display: flex;
+                flex-direction: column; 
+            }
+
+            .input {
+                width: 95%;
+                height: 70px;
+                border-radius: 5px;
+                margin: auto;
+                margin-top: 5px;
+                padding: 10px;
+                box-sizing: border-box;
+                margin-bottom: 20px;
+            }
+
+            .section-left {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                margin-top: 30px;
+            }
+
+            #msg {
+                display: flex;
+                width: 95%;
+                height: 200px;
+                margin: auto;
+                margin-top: 10px;
+                border-radius: 5px;
+            }
+
+            ::placeholder {
+                color: rgb(206, 204, 204);
+                font-variant: initial;
+                font-size: 18px;
+                font-weight: bolder;
+                padding: 20px;
+            }
+
+
+            .btn {
+                padding: 25px 40px;
+                font-size: 20px;
+                font-weight: bolder;
+                letter-spacing: 0.01rem;
+                color: white;
+                background-color: #f1c942;
+                border-radius: 5px;
+                border-color: transparent;
+                text-transform: uppercase;
+                display: flex;
+                justify-content: center;
+                margin: auto;
+                margin-top: 40px;
+            }
+                    
+            /* Footer */
+            footer {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+            }
+
+            .first, .second, .third {
+                margin-bottom: 20px;
+            }
+            .iconKasiet {
+                color: rgb(80, 80, 80);
+                border-radius: 50%;
+            }
+
+            .third a {
+                text-decoration: none;
+                color: #f1c942;
+            }
+
+            .third a:hover {
+                text-decoration: underline;
+            }
+}
